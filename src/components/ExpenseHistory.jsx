@@ -3,7 +3,7 @@ import React from 'react';
 function ExpenseHistory({ expenses, onRemoveExpense }) {
     return (
         <div className="expense-history">
-            <h3>Expense History:</h3>
+            <h3>Expense History:</h3><hr />
             <table>
                 <thead>
                     <tr>

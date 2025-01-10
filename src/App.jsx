@@ -79,7 +79,7 @@ function App() {
           <button className="btn reset-btn" onClick={handleReset}>Reset All</button>
         </div>
         <div className="right-container">
-          <Summary budget={budget} totalExpenses={totalExpenses} budgetLeft={budgetLeft} />
+          <Summary budget={budget} totalExpenses={totalExpenses} budgetLeft={budgetLeft} /><hr />
           <ExpenseHistory expenses={expenses} onRemoveExpense={handleRemoveExpense} />
         </div>
       </div>
