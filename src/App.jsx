@@ -8,47 +8,6 @@ import ExpenseInput from "./components/ ExpenseInput";
 import Summary from "./components/ Summary";
 import ExpenseHistory from './components/ExpenseHistory';
 
-/* function App() {
-  const [budget, setBudget] = useState(0);
-  //TEST
-
-  const [expenses, setExpenses] = useState([]);
-
-  const totalExpenses = expenses.reduce((total, item) => total + item.amount, 0);
-  const budgetLeft = budget - totalExpenses;
-
-  const handleAddBudget = (amount) => setBudget(amount);
-  const handleAddExpense = (title, amount) => {
-    const newExpense = { id: Date.now(), title, amount };
-    setExpenses([...expenses, newExpense]);
-  };
-  const handleRemoveExpense = (id) => setExpenses(expenses.filter(expense => expense.id !== id));
-  const handleReset = () => {
-    setBudget(0);
-    setExpenses([]);
-  };
-
-  return (
-    <div className="app">
-      <h1>Budget Tracker System</h1>
-      <div className="main-container">
-        <div className="left-container">
-          <BudgetInput onAddBudget={handleAddBudget} />
-          <ExpenseInput onAddExpense={handleAddExpense} />
-          <button className="btn reset-btn" onClick={handleReset}>Reset All</button>
-        </div>
-        <div className="right-container">
-          <Summary budget={budget} totalExpenses={totalExpenses} budgetLeft={budgetLeft} /><hr />
-          <ExpenseHistory expenses={expenses} onRemoveExpense={handleRemoveExpense} />
-        </div>
-      </div>
-    </div>
-  );
-}
-
-export default App;
- */
-
 
 
 
